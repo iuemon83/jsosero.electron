@@ -1,3 +1,5 @@
+window.jQuery = window.$ = require('./lib/jquery.js');
+
 $(function() {
     var osero = new Osero('bord', 8, 8);
 

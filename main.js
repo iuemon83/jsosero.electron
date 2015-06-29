@@ -17,7 +17,7 @@ app.on('ready', function() {
         width: 800,
         height: 600
     });
-    mainWindow.loadUrl('file://' + __dirname + '/osero.html');
+    mainWindow.loadUrl('file://' + __dirname + '/index.html');
 
     mainWindow.on('closed', function() {
         mainWindow = null;
