@@ -1,6 +1,7 @@
 window.jQuery = window.$ = require('./lib/jquery.js');
 
 $(function() {
+    var Osero = require('./lib/osero.js');
     var osero = new Osero('bord', 8, 8);
 
     var $message = $('#message');
